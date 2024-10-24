@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "py-eth"
+version = "0.1.0"
+description = ""
+authors = ["Danil Anokhin <malefaro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+web3 = "^7.4"
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+jupyterlab-vim = "^4.1.0"
+black = "^22.3"
+flake8 = "==3.9.2"
+flake8-black = "==0.3.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
