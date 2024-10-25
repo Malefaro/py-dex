@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 web3 = "^7.4"
 eth-abi ="^5.1"
+aiochannel = "^1.2"
 
 [tool.poetry.group.dev.dependencies]
 jupyter = "^1.0.0"
