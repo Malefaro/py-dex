@@ -7,7 +7,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-web3 = "^7.4"
+web3 = "^7.6"
 eth-abi ="^5.1"
 aiochannel = "^1.2"
 
